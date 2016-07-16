@@ -1,6 +1,11 @@
 
 <?php
 
+//require all the thord party stuff that we gonna use 
+
+require 'vendor/autoload.php';
+
+
 // Require the PageController 
 require 'app/controllers/PageController.php';
 
