@@ -1,3 +1,5 @@
+<?php  $this->layout('master');       ?>
+
 <div class="main-image">
 	<h1>Welcome to MobileZone</h1>
 </div>

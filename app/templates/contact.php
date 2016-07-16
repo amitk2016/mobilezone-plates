@@ -1,3 +1,5 @@
+<?php  $this->layout('master'); ?>
+
 <!-- mail -->
 	<div class="mail animated wow zoomIn" data-wow-delay=".5s">
 		<div class="container">

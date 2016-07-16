@@ -1,3 +1,7 @@
+<?php  $this->layout('master');?>
+
+
+
 <!-- login -->
 	<div class="login">
 		<div class="container">
@@ -5,13 +9,13 @@
 			<p class="est animated wow zoomIn" data-wow-delay=".5s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
 				deserunt mollit anim id est laborum.</p>
 			<div class="login-form-grids animated wow slideInUp" data-wow-delay=".5s">
-				<form>
+				<form action="index.php?page=home">
 					<input type="email" placeholder="Email Address" required=" " >
 					<input type="password" placeholder="Password" required=" " >
 					<div class="forgot">
 						<a href="#">Forgot Password?</a>
 					</div>
-					<input type="submit" value="Login">
+					<a href="index.php?page=home"><input type="submit" value="Login"></a>
 				</form>
 			</div>
 			<h4 class="animated wow slideInUp" data-wow-delay=".5s">For New People</h4>

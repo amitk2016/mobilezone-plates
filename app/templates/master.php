@@ -79,7 +79,7 @@
 
 	<main>
 		
-
+	<?php echo $this->section('content') ?>
 
 
 

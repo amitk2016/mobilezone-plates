@@ -1,3 +1,5 @@
+<?php  $this->layout('master'); ?>
+
 <!-- register -->
 	<div class="register">
 		<div class="container">

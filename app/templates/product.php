@@ -1,3 +1,7 @@
+<?php  $this->layout('master'); ?>
+
+
+
 <!-- page content goes here  -->
 
     <div class="container">
