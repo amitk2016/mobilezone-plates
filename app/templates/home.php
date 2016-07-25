@@ -1,4 +1,13 @@
-<?php  $this->layout('master');       ?>
+<?php  
+
+	$this->layout('master', [
+		'title'=> "Welcome to Mobilezone",
+		'desc'=> "Explore the latest mobiles and tablets"
+		]);      
+
+
+
+ ?>
 
 <div class="main-image">
 	<h1>Welcome to MobileZone</h1>

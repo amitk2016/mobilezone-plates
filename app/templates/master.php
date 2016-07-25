@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <meta http-equiv="refresh" content="3"> -->
-	<meta name="description" content="Between 150 and 160 characters">
-	<title>MobileZone</title>
+	<meta name="description" content="<?= $desc ?>">
+	<title><?= $title ?></title>
 	<!-- Latest compiled and minified Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<!-- Optional theme -->

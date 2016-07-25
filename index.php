@@ -25,7 +25,8 @@ switch ($page) {
 
 	//Home page
 	case 'home':
-		echo $plates->render('home');
+		require 'app/controllers/HomeController.php';
+		$controller = new HomeController();
 		break;
 
 	//login page
@@ -35,7 +36,10 @@ switch ($page) {
 
 	//register page
 	case 'register':
-		echo $plates->render('register');
+	
+		require 'app/controllers/RegisterController.php';
+		$controller = new RegisterController();
+
 		break;
 
 	//cart page
@@ -58,7 +62,7 @@ switch ($page) {
 	break;
 }
 
-
+	$controller->buildHTML();
 
 
 
